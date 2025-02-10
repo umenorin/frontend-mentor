@@ -10,6 +10,8 @@ Simple projects focused on basic HTML and CSS.
 
 - [QR Code Component](https://umenorin.github.io/frontend-mentor/qr-code-component-main/)
 
+- [Blog Preview Card](https://umenorin.github.io/frontend-mentor/blog-preview-card-main/)
+
 ---
 
 ## 🟡 Junior
