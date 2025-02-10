@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    /* base colors */
+    --color-yellow: hsl(47, 88%, 63%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-gray-500: hsl(0, 0%, 42%);
+    --color-gray-950: hsl(0, 0%, 7%);
+
+    /* fonts */
+    --font-weight-light: 500; 
+    --font-weight-dark: 800;
+    --font-family: "Figtree", serif;
+
+    /* gaps */
+    --distance-xs: 1rem;
+    --distance-s: 1.2rem;
+    --distance-m: 2rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: var(--color-yellow);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+}
+
+.card{
+    background-color: var(--color-white);
+    border: 1px solid black;
+    padding: var(--distance-m);
+    height: 42.5rem;
+    max-width: 30rem;
+    border-radius: var(--distance-m);
+    box-shadow: 7px 7px 1px black;
+}
+
+.card__image {
+    width: 100%;
+    border-radius: var(--distance-m);
+}
+
+.card__status {
+    display: inline-block;
+    background-color: var(--color-yellow);
+    padding: 8px;
+    font-weight: var(--font-weight-dark);
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin-top: var(--distance-m);
+    color: var(--color-gray-950);
+}
+
+.card__data {
+    margin-top: var(--distance-xs);
+    font-weight: var(--font-weight-light);
+    font-size: 1.1rem;
+    color: var(--color-gray-950);
+
+}
+
+.card__title {
+    margin-top: var(--distance-m);
+    font-weight: var(--font-weight-dark);
+    color: var(--color-gray-950);
+}
+
+.card__content{
+    margin-top: var(--distance-m);
+    color: var(--color-gray-500);
+    font-weight: var(--font-weight-light);
+    font-size: 1.4rem;
+    line-height: var(--distance-m);
+}
+.card__user-info {
+    margin-top: var(--distance-m);
+    display: flex;
+    align-items: center;
+    gap: var(--distance-xs);
+}
+
+.card__user-info--avatar{
+    width: 3rem;
+}
+
+.card__user-info--name {
+    font-weight: var(--font-weight-dark);
+    font-size: 1.2rem;
+    font-weight: var(--font-weight-dark);
+    
+}
