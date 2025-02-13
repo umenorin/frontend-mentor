@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --color-green: hsl(75, 94%, 57%);
+    --color-white: hsl(0, 0%, 100%);
+
+    --color-grey-700: hsl(0, 0%, 20%);
+    --color-grey-800: hsl(0, 0%, 12%);
+    --color-grey-900: hsl(0, 0%, 8%);
+
+    --font-weight-light:400;
+    --font-weight-semi-bold:600;
+    --font-weight-bold:700;
+
+    --distance-xs:1rem;
+    --distance-s:2.5rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Inter", serif;
+    font-size: 10px;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--color-grey-900);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card  {
+    background-color: var(--color-grey-800);
+    height: 50rem;
+    max-width: 29rem;
+    border-radius: var(--distance-xs);
+    padding: var(--distance-s);
+}
+
+.card__profile--image {
+    width: 9rem;
+    border-radius: 50rem;
+    display: block;
+    margin: auto;
+}
+.card__profile--name {
+    color: var(--color-white);
+    text-align: center;
+    margin-top: var(--distance-s);
+    font-weight: var(--font-weight-bold);
+    font-size: 2.4rem;
+}
+.card__profile--city {
+    color: var(--color-green);
+    padding: var(--distance-xs);
+    font-weight: var(--font-weight-light);
+    text-align: center;
+    font-size: 1.4rem;
+}
+.card__profile--phrase {
+    color: var(--color-white);
+    text-align: center;
+    padding: var(--distance-s) 0;
+    font-size: 1.4rem;
+    font-weight: var(--font-weight-light);
+}
+
+.card__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.card__buttons--btn {
+    height: 4rem;
+    border-radius: var(--distance-xs);
+    border: none;
+    background-color: var(--color-grey-700);
+    color: var(--color-white);
+    font-size: 1.4rem;
+    font-weight: var(--font-weight-semi-bold);
+    cursor: pointer;
+}
+.card__buttons--btn:hover {
+    background-color: var(--color-green);
+    color: black;
+}

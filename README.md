@@ -12,6 +12,8 @@ Simple projects focused on basic HTML and CSS.
 
 - [Blog Preview Card](https://umenorin.github.io/frontend-mentor/blog-preview-card-main/)
 
+- [Social Link Profile](https://umenorin.github.io/frontend-mentor/social-links-profile-main/)
+
 ---
 
 ## 🟡 Junior
