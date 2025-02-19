@@ -14,6 +14,8 @@ Simple projects focused on basic HTML and CSS.
 
 - [Social Link Profile](https://umenorin.github.io/frontend-mentor/social-links-profile-main/)
 
+- [Recipe Page](https://umenorin.github.io/frontend-mentor/recipe-page-main/)
+
 ---
 
 ## 🟡 Junior

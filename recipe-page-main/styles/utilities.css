@@ -1,0 +1,20 @@
+@import url("./variables.css");
+
+.margin-top-m {
+  margin-top: var(--distance-m);
+}
+
+.padding-top-p {
+  padding-top: var(--distance-s);
+}
+
+.padding-top-m {
+  padding-top: var(--distance-m);
+}
+
+.padding-m {
+  padding: var(--distance-m);
+}
+.padding-s {
+  padding: var(--distance-s);
+}

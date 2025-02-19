@@ -1,0 +1,97 @@
+@import url("variables.css");
+
+p {
+  font-family: var(--font-family-paragraph);
+}
+.title {
+  color: var(--color-brown-800);
+  font-weight: var(--font-weight-bold);
+}
+.section1__title {
+  font-size: 2.5rem;
+  line-height: 2.7rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-stone-900);
+}
+
+.section1__description {
+  font-size: 1.27rem;
+  color: var(--color-stone-600);
+  font-weight: var(--font-weight-light);
+}
+
+.section2__title {
+  color: var(--color-rose-800);
+  padding: 0 var(--distance-s);
+  font-size: 1.6rem;
+  font-family: var(--font-family-paragraph);
+  font-weight: var(--font-weight-semibold);
+}
+
+.section2__item {
+  font-family: var(--font-family-paragraph);
+  color: var(--color-stone-600);
+  font-size: 1.1rem;
+  margin-top: var(--distance-s);
+  font-weight: var(--font-weight-semibold);
+}
+.section2__item--bold {
+  color: var(--color-stone-900);
+}
+
+.section3__item {
+  font-family: var(--font-family-paragraph);
+  font-weight: var(--font-weight-light);
+  padding-left: 1.5rem;
+  font-size: 1rem;
+  color: var(--color-stone-600);
+}
+
+.section4__item {
+  margin-top: var(--distance-s);
+  padding-left: 1.5rem;
+  line-height: 1.5rem;
+  font-size: 1.09rem;
+  font-weight: var(--font-weight-light);
+  color: var(--color-stone-600);
+}
+
+.section5__description {
+  color: var(--color-stone-600);
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+}
+
+@media screen and (min-width: 376px) {
+  .section1__title {
+    font-size: 2.8rem;
+    line-height: 2.7rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-stone-900);
+    margin-top: var(--distance-m);
+  }
+
+  .section1__description {
+    font-size: 1.57rem;
+  }
+
+  .section2__title {
+    font-size: 1.9rem;
+  }
+
+  .section2__item {
+    font-size: 1.4rem;
+  }
+
+  .section3__item {
+    font-size: 1.3rem;
+  }
+
+  .section4__item {
+    font-size: 1.39rem;
+  }
+
+  .section5__description {
+    font-size: 1.4rem;
+  }
+}
